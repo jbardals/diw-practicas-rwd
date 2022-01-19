@@ -1,0 +1,48 @@
+body{ 
+  color: #555;
+  background-color: #995BED;
+}
+
+.sidebar-wrapper{
+  width: 300px;
+  margin: 30px auto;
+}
+
+.sidebar{
+    background-color: #FFF;
+    border-radius: 2px;
+}
+
+    /*Logo placeholder*/
+    .sidebar__logo h3{
+        text-transform: uppercase;
+        color: #CCC;
+    }
+
+    /*Sidebar Navigation*/
+    .sidebar__nav{
+        list-style: none;
+        padding: 0;
+    }
+        .sidebar__nav li{
+            padding: 15px;
+        }
+        .sidebar__nav li.active, .sidebar__nav li:hover{
+            background-color: #F7F2FF;
+            color: #995BED;
+        }
+            .sidebar__nav li i{
+                width: 25px;
+            }
+    
+    /*Sideabr profile*/
+    .sidebar__profile{
+        margin-top: 20px;
+    }
+        .sidebar__profile img{
+            width: 80px;
+            height: 80px;
+        }
+        .sidebar__profile h4{
+            margin-top: 0;
+        }
