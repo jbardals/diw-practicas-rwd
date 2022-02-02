@@ -327,7 +327,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Importar CSS
 
-- Solucó³n 3: **importar distintas hojas de estilo dentro del mismo CSS**:
+- Solución 3: **importar distintas hojas de estilo dentro del mismo CSS**:
 
 ~~~
 @import url("tablet.css")
