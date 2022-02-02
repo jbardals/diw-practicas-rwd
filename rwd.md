@@ -1,43 +1,4 @@
 % Responsive Web Design
-% Adolfo Sanz De Diego
-% Septiembre 2016
-
-
-
-# El autor
-
-
-
-## Adolfo Sanz De Diego
-
-- EmpecÃ© **desarrollando aplicaciones web**, hasta que di el salto a la docencia.
-
-- Actualmente soy **Asesor TÃ©cnico Docente** en el servicio TIC de la D.G de Infraestructuras y Servicios de la ConsejerÃ­a de EducaciÃ³n, Juventud y Deporte de la Comunidad de Madrid.
-
-- AdemÃ¡s colaboro como **formador especializado en tecnologÃ­as de desarrollo**.
-
-
-## Algunos proyectos
-
-- **Hackathon Lovers** <http://hackathonlovers.com>: un grupo creado para emprendedores y desarrolladores amantes de los hackathones.
-
-- **Password Manager Generator** <http://pasmangen.github.io>: un gestor de contraseÃ±as online.
-
-- **MarkdownSlides** <https://github.com/asanzdiego/markdownslides>: un script para crear slides a partir de ficheros MD.
-
-
-## Â¿Donde encontrarme?
-
-- Mi nick: **asanzdiego**
-
-    - AboutMe:  <http://about.me/asanzdiego>
-    - GitHub:   <http://github.com/asanzdiego>
-    - Twitter:  <http://twitter.com/asanzdiego>
-    - Blog:     <http://asanzdiego.blogspot.com.es>
-    - LinkedIn: <http://www.linkedin.com/in/asanzdiego>
-    - Google+:  <http://plus.google.com/+AdolfoSanzDeDiego>
-
-
 
 # IntroducciÃ³n
 
