@@ -12,17 +12,14 @@
 
 ![Esto es la web. Fuente: bradfostweb.com](../img/brad_frost_2.png)
 
-## Será¡ esto la web?
+## Será esto la web?
 
 ![Será esto la web?. Fuente: bradfostweb.com](../img/brad_frost_3.png)
 
-## EstadÃ­sticas
+## Estadísticas
 
-![Estadísticas. Fuente: gs.statcounter.com](../img/StatCounter-resolution-ww-monthly-200903-201408.jpeg)
+![Estadísticas. Fuente: gs.statcounter.com](../img/stats_devices.png)
 
-## El desarrollador
-
-![El desarrollador atual. Fuente: globalmoxie.com](../img/globalmoxie.png)
 
 ## Responsive Web Design
 
@@ -40,7 +37,7 @@
 
 ## Progessive enhancement
 
-- Se **desarrolla una versión básica** completamente operativa, con la posibilidad de ir aÃ±adiendo mejoras para los Ãºltimos navegadores.
+- Se **desarrolla una versión básica** completamente operativa, con la posibilidad de ir añadiendo mejoras para los últimos navegadores.
 
 ![Progressive enhancement. Fuente: bradfostweb.com](../img/responsive-design-progressive-enhancement.png)
 
@@ -51,8 +48,6 @@
 - **Eficiencia en la actualización**. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas.
 
 - **Mejora la usabilidad**. El usuario va a tener experiencias de usuario parecidas independientemente del dispositivo que está usando en cada momento
-
-## Beneficios (II)
 
 - **Mejora el SEO**. Según las Guidelines de Google el tener una web que se vea correctamente en móviles es un factor que tienen en cuenta a la hora de elaborar los rankings.
 
@@ -76,11 +71,6 @@
 
 ![Ejemplo RWD: Boston Globe. Fuente:ecbloguer.com](../img/Boston-Globe-ejemplo-de-Responsive-Web-Design.jpg)
 
-## Food Sense
-
-- <http://foodsense.is>
-
-![Ejemplo RWD: Food Sense. Fuente:ecbloguer.com](../img/Food-Sense-ejemplo-de-Responsive-Web-Design.jpg)
 
 ## Deren Keskin
 
@@ -96,11 +86,11 @@
 
 ## De PX a EM
 
-- Formula: **target Ã· context = result**
+- Formula: **target + context = result**
 
-    - target - font-size que tenemos en píxeles
-    - context - font-size base (por defecto 16px en la mayoría de los navegadores)
-    - result - resultado que obtenemos en em
+    - target -> font-size que tenemos en píxeles
+    - context -> font-size base (por defecto 16px en la mayoría de los navegadores)
+    - result -> resultado que obtenemos en em
 
 - Es recomendable indicar el cálculo realizado junto a la regla de CSS.
 
@@ -166,7 +156,6 @@ h1 {
 ## Semántico
 
 - **The Semantic Grid System**: Mediante layouts, y sin necesidad de usar clases en HTML.
-    - <http://semantic.gs>
 
 ## Ejemplo semantic.gs (HTML)
 
@@ -209,7 +198,7 @@ img {
 }
 ~~~
 
-## Ancho del contenedor (I)
+## Ancho del contenedor
 
 - Ocupar el **ancho del contenedor** (si la imagen no llega, se deforma):
 
@@ -219,7 +208,6 @@ img {
 }
 ~~~
 
-## Ancho del contenedor (II)
 
 - Ocupar el **ancho del contenedor** (si la imagen no llega, se queda con su tamaño):
 
@@ -229,9 +217,8 @@ img {
 }
 ~~~
 
-## Ancho del contenedor (III)
 
-- Ocupar el **ancho del contenedor hasta un mÃ¡ximo** (si la imagen no llega, se deforma):
+- Ocupar el **ancho del contenedor hasta un máximo** (si la imagen no llega, se deforma):
 
 ~~~
 img {
@@ -265,7 +252,7 @@ img {
 
 - Hoy en día ha sido **ampliamente adoptada por el resto de navegadores móviles**, convirtiéndose en un estándar de facto.
 
-## Â¿QuÃ© nos permite?
+## Qué nos permite?
 
 - La etiqueta viewport nos permite definir el **ancho, alto y escala del Área** usada por el navegador para mostrar contenido.
 
@@ -411,9 +398,9 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
   /* reglas que queremos que
   se apliquen para dispositivos
   que no sean ni televisiones
-  con Ã¡reas de visualizaciÃ³n
+  con áreas de visualización
   menores de 800px, ni pantallas
-  con Ã¡reas de visualizaciÃ³n
+  con áreas de visualización
   menores de 400px */
 }
 ~~~
@@ -430,7 +417,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 }
 ~~~
 
-## Caracterí­sticas (I)
+## Caracterí­sticas
 
 - Características que hacen referencia al **área de visualización**:
 
@@ -439,17 +426,15 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
     - **aspect-ratio** [4/3 | 16/9 | ...]
     - **orientation** [portrait | landscape]
 
-## Características (II)
 
-- CaracterÃ­sticas que hacen referencia a la **pantalla del dispositivo**:
+- Características que hacen referencia a la **pantalla del dispositivo**:
 
     - **device-width**
     - **device-height**
     - **device-aspect-ratio** [4/3 | 16/9 | ...]
 
-## CaracterÃ­sticas (III)
 
-- **Otras** caracterÃ­sticas:
+- **Otras** características:
 
     - **color**: El número de bits de profundidad de color
     - **monocrome**: El número de bits de profundidad de color, en dispotivos monocromáticos
@@ -457,7 +442,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Min- y Max-
 
-- A casi todas las caracterÃ­sticas se les puede adjuntar los **prefijos min- y max-**
+- A casi todas las características se les puede adjuntar los **prefijos min- y max-**
 
 - De hecho lo habitual es usar dichos prefijos.
 
@@ -471,7 +456,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ![Desktop first VS Mobile first. Fuente: brettjankord.com](../img/desktop-first-vs-mobile-first.png)
 
-## Desktop First
+## Desktop First  (DF)
 
 - Consiste en **desarrollar para pantallas grandes** y posteriormente adaptar el diseño a pantallas pequeñas.
 
@@ -496,7 +481,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 - La **versión móvil termina siendo una versión descafeinada** de la web original.
 
-## Mobile first
+## Mobile first (MF)
 
 - Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseÃ±o a pantallas grandes.
 
@@ -538,94 +523,3 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 - La manera de hacerlo: **ir cambiando poco a poco el ancho del navegador y donde la web se rompa**, aplicar un Media Query.
 
 
-
-# Acerca de
-
-
-
-## Licencia
-
-- Estas **transparencias** están hechas con:
-    - MarkdownSlides: <https://github.com/asanzdiego/markdownslides>
-
-- Estas **transparencias** están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
-    - <http://creativecommons.org/licenses/by-sa/3.0/es>
-
-## Fuentes
-
-- Transparencias:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/slides>
-
-- Ejercicios:
-    - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src>
-
-## Bibliografía (I)
-
-- Responsive Web Design
-    - <http://www.arkaitzgarro.com/responsive-web-design/index.html>
-
-- IntroducciÃ³n al DiseÃ±o Web Adaptable o Responsive Web Design
-    - <http://www.emenia.es/diseno-web-adaptable-o-responsive-web-design>
-
-- Tutorial: Responsive Web Design
-    - <http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i>
-
-## Bibliografía (II)
-
-- Tutorial: Transforma tu web en Responsive Design
-    - <http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design>
-
-- Curso responsive web design - Redradix School
-    - <http://www.slideshare.net/Redradix/curso-responsive-web-design-redradix-school>
-
-- Todo lo que necesita saber sobre Responsive Web Design
-    - <http://www.ecbloguer.com/marketingdigital/?p=2635>
-
-## Bibliografí­a (III)
-
-- DiseÃ±o web fluido y plantilla fluida con HTML5 y CSS3
-    - <http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida>
-
-- Beneficios del Responsive Web Design en SEO
-    - <http://madridnyc.com/blog/2013/01/29/beneficios-del-responsive-web-design-en-seo>
-
-- Responsive Web Design Testing Tool
-    - <http://mattkersley.com/responsive>
-
-## Bibliografía (IV)
-
-- Responsive Web Design
-    - <http://www.ricardocastillo.com/rwd.pdf>
-
-- Responsive Design y accesibilidad. Buenas y malas prÃ¡cticas. Errores comunes.
-    - <http://olgacarreras.blogspot.com.es/2014/01/responsive-design-y-accesibilidad.html>
-
-- DiseÃ±o web adaptativo: mejores prÃ¡cticas
-    - <http://www.emenia.es/diseno-web-adaptativo-mejores-practicas>
-
-## Bibliografía (V)
-
-- TraducciÃ³n de "Responsive Web Design" de "A List Apart"
-    - <http://diseÃ±owebresponsivo.com.ar>
-
-- Responsive Design Exercise
-    - <http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html>
-
-## Bibliografía (VI)
-
-- EstadÃ­sticas de StatCounter
-    - <http://gs.statcounter.com>
-
-- PÃ¡gina de testeo de Matt Kersley
-    - <http://mattkersley.com/responsive>
-
-## Bibliografía (V)
-
-- Los 5 patrones del Responsive Design con FlexBox
-    - <https://carlosazaustre.es/blog/los-5-patrones-del-responsive-design/>
-
-- El futuro del CSS Grid Layout
-    - <https://carlosazaustre.es/blog/css-grid-layout-css/>
-
-- El gran poder de CSS3: FlexBox
-    - <https://filisantillan.com/el-gran-poder-de-css3-flexbox/>
