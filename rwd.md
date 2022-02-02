@@ -1,6 +1,6 @@
 % Responsive Web Design
 
-# IntroducciÃ³n
+# Introducción
 
 
 
@@ -12,13 +12,13 @@
 
 ![Esto es la web. Fuente: bradfostweb.com](../img/brad_frost_2.png)
 
-## Â¿SerÃ¡ esto la web?
+## Será¡ esto la web?
 
-![Â¿SerÃ¡ esto la web?. Fuente: bradfostweb.com](../img/brad_frost_3.png)
+![Será esto la web?. Fuente: bradfostweb.com](../img/brad_frost_3.png)
 
 ## EstadÃ­sticas
 
-![EstadÃ­sticas. Fuente: gs.statcounter.com](../img/StatCounter-resolution-ww-monthly-200903-201408.jpeg)
+![Estadísticas. Fuente: gs.statcounter.com](../img/StatCounter-resolution-ww-monthly-200903-201408.jpeg)
 
 ## El desarrollador
 
@@ -34,29 +34,29 @@
 
 ## Graceful degradation
 
-- Se **desarrolla para los Ãºltimos navegadores**, con la posibilidad de que funcione en navegadores antiguos.
+- Se **desarrolla para los últimos navegadores**, con la posibilidad de que funcione en navegadores antiguos.
 
 ![Graceful degradation.  Fuente: bradfostweb.com](../img/responsive-design-graceful-degradation.png)
 
 ## Progessive enhancement
 
-- Se **desarrolla una versiÃ³n bÃ¡sica** completamente operativa, con la posibilidad de ir aÃ±adiendo mejoras para los Ãºltimos navegadores.
+- Se **desarrolla una versión básica** completamente operativa, con la posibilidad de ir aÃ±adiendo mejoras para los Ãºltimos navegadores.
 
 ![Progressive enhancement. Fuente: bradfostweb.com](../img/responsive-design-progressive-enhancement.png)
 
 ## Beneficios (I)
 
-- **ReducciÃ³n de costos**. Pues no hay que hacer varias versiones de una misma pÃ¡gina.
+- **Reducción de costos**. Pues no hay que hacer varias versiones de una misma página.
 
-- **Eficiencia en la actualizaciÃ³n**. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas.
+- **Eficiencia en la actualización**. El sitio solo se debe actualizar una vez y se ve reflejada en todas las plataformas.
 
-- **Mejora la usabilidad**. El usuario va a tener experiencias de usuario parecidas independientemente del dispositivo que estÃ© usando en cada momento
+- **Mejora la usabilidad**. El usuario va a tener experiencias de usuario parecidas independientemente del dispositivo que está usando en cada momento
 
 ## Beneficios (II)
 
-- **Mejora el SEO**. SegÃºn las Guidelines de Google el tener una web que se vea correctamente en mÃ³viles es un factor que tienen en cuenta a la hora de elaborar los rankings.
+- **Mejora el SEO**. Según las Guidelines de Google el tener una web que se vea correctamente en móviles es un factor que tienen en cuenta a la hora de elaborar los rankings.
 
-- **Impacto en el visitante**. Esta tecnologÃ­a por ser nueva genera impacto en las personas que la vean en acciÃ³n, lo que permitirÃ¡ asociar a la marca con creatividad e innovaciÃ³n.
+- **Impacto en el visitante**. Esta tecnologÃ­a por ser nueva genera impacto en las personas que la vean en acción, lo que permitirá asociar a la marca con creatividad e innovación.
 
 
 
@@ -67,13 +67,8 @@
 
 - <http://mattkersley.com/responsive>
 
-![PÃ¡gina de testeo de Matt Kersley](../img/pagina-de-testeo-de-matt-kersley.png)
+![Página de testeo de Matt Kersley](../img/pagina-de-testeo-de-matt-kersley.png)
 
-## dConstruct 2011
-
-- <http://2011.dconstruct.org>
-
-![Ejemplo RWD: dConstruct 2011. Fuente:ecbloguer.com](../img/dConstruct-2011-ejemplo-de-Responsive-Web-Design.jpg)
 
 ## Boston Globe
 
@@ -95,7 +90,7 @@
 
 
 
-# DiseÃ±o fluido
+# Diseño fluido
 
 
 
@@ -103,11 +98,11 @@
 
 - Formula: **target Ã· context = result**
 
-    - target - font-size que tenemos en pÃ­xeles
-    - context - font-size base (por defecto 16px en la mayorÃ­a de los navegadores)
+    - target - font-size que tenemos en píxeles
+    - context - font-size base (por defecto 16px en la mayoría de los navegadores)
     - result - resultado que obtenemos en em
 
-- Es recomendable indicar el cÃ¡lculo realizado junto a la regla de CSS.
+- Es recomendable indicar el cálculo realizado junto a la regla de CSS.
 
 ## On Line
 
@@ -132,13 +127,13 @@ h1 {
 
 ## EM se hereda
 
-- Importante: **las medidas em se heredan**, es decir, un elemento dentro de un elemento tomarÃ¡ como referencia el superior para calcular cuÃ¡nto es un em.
+- Importante: **las medidas em se heredan**, es decir, un elemento dentro de un elemento tomará como referencia el superior para calcular cuánto es un em.
 
-- Por ejemplo, si tenemos una caja donde hemos definido una fuente como 0.5em y dentro de esa caja otra con una fuente 0.25em, esta Ãºltima fuente tendrÃ¡ 1/4 de tamaÃ±o respecto a la 1/2 de tamaÃ±o de la fuente general.
+- Por ejemplo, si tenemos una caja donde hemos definido una fuente como 0.5em y dentro de esa caja otra con una fuente 0.25em, esta última fuente tendrá 1/4 de tamaño respecto a la 1/2 de tamaño de la fuente general.
 
 ## De PX a %
 
-![CÃ¡lculo porcentajes. Fuente:aloud.es](../img/porcentajes.jpg)
+![Cálculo porcentajes. Fuente:aloud.es](../img/porcentajes.jpg)
 
 
 
@@ -168,7 +163,7 @@ h1 {
 </div>
 ~~~
 
-## SemÃ¡ntico
+## Semántico
 
 - **The Semantic Grid System**: Mediante layouts, y sin necesidad de usar clases en HTML.
     - <http://semantic.gs>
@@ -200,13 +195,13 @@ aside { .column(3); }
 
 
 
-# ImÃ¡genes fluidas
+# Imágenes fluidas
 
 
 
-## TamaÃ±o mÃ¡ximo
+## Tamaño máximo
 
-- Fijar un **tamaÃ±o mÃ¡ximo** (si la imagen no llega, se queda con su tamaÃ±o):
+- Fijar un **tamaño máximo** (si la imagen no llega, se queda con su tamaño):
 
 ~~~
 img {
@@ -226,7 +221,7 @@ img {
 
 ## Ancho del contenedor (II)
 
-- Ocupar el **ancho del contenedor** (si la imagen no llega, se queda con su tamaÃ±o):
+- Ocupar el **ancho del contenedor** (si la imagen no llega, se queda con su tamaño):
 
 ~~~
 img {
@@ -264,37 +259,37 @@ img {
 
 
 
-## OrÃ­genes
+## Orígenes
 
-- La etiqueta meta para el viewport fue **introducida por Apple** en Safari para mÃ³viles en el aÃ±o 2007, para ayudar a los desarrolladores a mejorar la presentaciÃ³n de sus aplicaciones web en un iPhone.
+- La etiqueta meta para el viewport fue **introducida por Apple** en Safari para móviles en el año 2007, para ayudar a los desarrolladores a mejorar la presentación de sus aplicaciones web en un iPhone.
 
-- Hoy en dÃ­a ha sido **ampliamente adoptada por el resto de navegadores mÃ³viles**, convirtiÃ©ndose en un estÃ¡ndar de facto.
+- Hoy en día ha sido **ampliamente adoptada por el resto de navegadores móviles**, convirtiéndose en un estándar de facto.
 
 ## Â¿QuÃ© nos permite?
 
-- La etiqueta viewport nos permite definir el **ancho, alto y escala del Ã¡rea** usada por el navegador para mostrar contenido.
+- La etiqueta viewport nos permite definir el **ancho, alto y escala del Área** usada por el navegador para mostrar contenido.
 
-## TamaÃ±o
+## Tamaño
 
-- Al fijar el ancho (width) o alto (height) del viewport, **podemos usar un nÃºmero fijo de pixeles** (ej: 320px, 480px, etc) **o usar dos constantes, device-width y device-height** respectivamente.
+- Al fijar el ancho (width) o alto (height) del viewport, **podemos usar un número fijo de pixeles** (ej: 320px, 480px, etc) **o usar dos constantes, device-width y device-height** respectivamente.
 
-- Se considera una **buena prÃ¡ctica configurar el viewport con device-width y device-height**, en lugar de utilizar un ancho o alto fijo.
+- Se considera una **buena práctica configurar el viewport con device-width y device-height**, en lugar de utilizar un ancho o alto fijo.
 
 ## Escala
 
-- La propiedad **initial-scale** controla el nivel de zoom inicial al cargarse la pÃ¡gina.
+- La propiedad **initial-scale** controla el nivel de zoom inicial al cargarse la página.
 
 - Las propiedades **maximum-scale, minimum-scale** controlan el nivel mÃ¡ximo y mÃ­nimo de zoom que se le va a permitir usar al usuario.
 
-- La propiedad **user-scalable [yes|no]** controlan si el usuario puede o no hacer zoom sobre la pÃ¡gina.
+- La propiedad **user-scalable [yes|no]** controlan si el usuario puede o no hacer zoom sobre la página.
 
 ## Accesibilidad
 
-- Es una **buena prÃ¡ctica de accesibilidad no bloquear las opciones de zoom** al usuario.
+- Es una **buena práctica de accesibilidad no bloquear las opciones de zoom** al usuario.
 
 ## Ejemplo
 
-- Un ejemplo adaptable y accesible serÃ­a:
+- Un ejemplo adaptable y accesible sería:
 
 ~~~
 <meta name="viewport"
@@ -309,17 +304,17 @@ img {
 
 
 
-## Â¿QuÃ© son?
+## Qué son?
 
-Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, braille, print, proyection, screen, tty, tv, etc.), **sino ademÃ¡s consultar otras caracterÃ­sticas** sobre el dispositivo que esta mostrando la pÃ¡gina.
+Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, braille, print, proyection, screen, tty, tv, etc.), **sino además consultar otras caracteí­sticas** sobre el dispositivo que esta mostrando la pÃ¡gina.
 
 ## Ejemplo
 
-- **Ejemplo**: aplicar distintas reglas CSS cuando el Ã¡rea de visualizaciÃ³n sea mayor que 480px.
+- **Ejemplo**: aplicar distintas reglas CSS cuando el área de visualización sea mayor que 480px.
 
 ## Distintos CSS
 
-- SoluciÃ³n 1: **cargar distintas CSS**:
+- Solución 1: **cargar distintas CSS**:
 
 ~~~
 <link rel="stylesheet"
@@ -327,39 +322,39 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
   media="all and (min-width: 480px)"
   href="tablet.css" />
 
-<!-- tablet.css es un CSS con reglas para cuando el Ã¡rea de visualizaciÃ³n sea mayor que 480px -->
+<!-- tablet.css es un CSS con reglas para cuando el área de visualización sea mayor que 480px -->
 ~~~
 
 ## Mismo CSS
 
-- SoluciÃ³n 2: **definir distintas propiedades dentro del mismo CSS**:
+- Solución 2: **definir distintas propiedades dentro del mismo CSS**:
 
 ~~~
 @media all and (min-width: 480px) {
 
-  /* aquÃ­ poner las reglas CSS
-  para cuando el Ã¡rea de visualizaciÃ³n
+  /* aquí poner las reglas CSS
+  para cuando el área de visualización
   sea mayor que 480px*/
 }
 ~~~
 
 ## Importar CSS
 
-- SoluciÃ³n 3: **importar distintas hojas de estilo dentro del mismo CSS**:
+- Solucó³n 3: **importar distintas hojas de estilo dentro del mismo CSS**:
 
 ~~~
 @import url("tablet.css")
   all and (min-width: 480px);
 
   /* tablet.css es un CSS con reglas
-  para cuando el Ã¡rea de visualizaciÃ³n
+  para cuando el área de visualización
   sea mayor que 480px */
 }
 ~~~
 
 ## Operador and
 
-- Es usado para combinar mÃºltiples media features en un sÃ³lo Media Query, **requiriendo que cada funciÃ³n devuelve true** para que el Query tambiÃ©n lo sea.
+- Es usado para combinar mÃºltiples media features en un solo Media Query, **requiriendo que cada función devuelve true** para que el Query también lo sea.
 
 ## Ejemplo and
 
@@ -370,16 +365,16 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
   /* reglas que queremos que
   se apliquen para televisiones
-  con Ã¡reas de visualizaciÃ³n
+  con áreas de visualización
   mayores de 700px siempre que
-  la pantalla estÃ© en
+  la pantalla esté en
   modo landscape */
 }
 ~~~
 
 ## Operador 'or'
 
-- Se pueden combinar mÃºltiples Media Queries **separados por comas** en una lista, de tal forma que si alguna de las Media Queries devuelve true, todo la sentencia devolverÃ¡ true.
+- Se pueden combinar múltiples Media Queries **separados por comas** en una lista, de tal forma que si alguna de las Media Queries devuelve true, todo la sentencia devolverá true.
 
 - Esto es **equivalente a un operador or**.
 
@@ -395,9 +390,9 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
   /* reglas que queremos que
   se apliquen para televisiones,
   o para dispositivos con Ã¡reas
-  de visualizaciÃ³n mayores
+  de visualización mayores
   de 700px, o cuando la pantalla
-  estÃ¡ en modo landscape */
+  esté en modo landscape */
 }
 ~~~
 
@@ -405,7 +400,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 - Se utiliza para **negar un Media Query completo**.
 
-- No se puede negar una caracterÃ­stica individualmente, si no solamente el Media Query completo.
+- No se puede negar una caracterí­stica individualmente, si no solamente el Media Query completo.
 
 ## Ejemplo not (I)
 
@@ -425,7 +420,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 ## Ejemplo not (II)
 
-- El anterior ejemplo serÃ­a equivalente a:
+- El anterior ejemplo serí­a equivalente a:
 
 ~~~
 @media not (tv and max-width(800px)),
@@ -435,16 +430,16 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 }
 ~~~
 
-## CaracterÃ­sticas (I)
+## Caracterí­sticas (I)
 
-- CaracterÃ­sticas que hacen referencia al **Ã¡rea de visualizaciÃ³n**:
+- Características que hacen referencia al **área de visualización**:
 
     - **width**
     - **height**
     - **aspect-ratio** [4/3 | 16/9 | ...]
     - **orientation** [portrait | landscape]
 
-## CaracterÃ­sticas (II)
+## Características (II)
 
 - CaracterÃ­sticas que hacen referencia a la **pantalla del dispositivo**:
 
@@ -456,8 +451,8 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 - **Otras** caracterÃ­sticas:
 
-    - **color**: El nÃºmero de bits de profundidad de color
-    - **monocrome**: El nÃºmero de bits de profundidad de color, en dispotivos monocromÃ¡ticos
+    - **color**: El número de bits de profundidad de color
+    - **monocrome**: El número de bits de profundidad de color, en dispotivos monocromáticos
     - **resolution**: Densidad de pixels en el dispositivo, medido en dpi
 
 ## Min- y Max-
@@ -468,7 +463,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 
 
-# MetodologÃ­as
+# Metodologías
 
 
 
@@ -478,11 +473,11 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 ## Desktop First
 
-- Consiste en **desarrollar para pantallas grandes** y posteriormente adaptar el diseÃ±o a pantallas pequeÃ±as.
+- Consiste en **desarrollar para pantallas grandes** y posteriormente adaptar el diseño a pantallas pequeñas.
 
 ## DF: utiliza max-width
 
-- Normalmente los Media Queries utilizan **max-width**, simplificando y ajustando para las pantallas mÃ¡s pequeÃ±as.
+- Normalmente los Media Queries utilizan **max-width**, simplificando y ajustando para las pantallas más pequeñas.
 
 ~~~
 @media all and (max-width: 320px) {
@@ -497,17 +492,17 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 ## DF: problemas
 
-- Los Media Query **no estÃ¡n soportados por todos los mÃ³viles**.
+- Los Media Query **no están soportados por todos los móviles**.
 
-- La **versiÃ³n mÃ³vil termina siendo una versiÃ³n descafeinada** de la web original.
+- La **versión móvil termina siendo una versión descafeinada** de la web original.
 
 ## Mobile first
 
-- Consiste en **desarrollar para pantallas pequeÃ±as** y posteriormente adaptar el diseÃ±o a pantallas grandes.
+- Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseÃ±o a pantallas grandes.
 
 ## MF: utiliza min-width
 
-- Ahora los Media Queries utilizan **min-width**, para ajustar el diseÃ±o a medida que aumenta el tamaÃ±o de pantalla.
+- Ahora los Media Queries utilizan **min-width**, para ajustar el diseño a medida que aumenta el tamaño de pantalla.
 
 ~~~
 @media all and (min-width: 320px) {
@@ -522,23 +517,23 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 ## MF: ventajas
 
-- Funciona en **mÃ³viles y/o navegadores antiguos** que no soportan los Media Queries.
+- Funciona en **móviles y/o navegadores antiguos** que no soportan los Media Queries.
 
-- Normalmente la **hoja de estilos resultante suele ser mÃ¡s sencilla** que usando la otra vÃ­a.
+- Normalmente la **hoja de estilos resultante suele ser más sencilla** que usando la otra vía.
 
-- Empezar por el mÃ³vil nos servirÃ¡ para **determinar de una manera mÃ¡s clara cual es el contenido realmente importante** de nuestra web.
+- Empezar por el móvil nos servirá para **determinar de una manera más clara cual es el contenido realmente importante** de nuestra web.
 
 ## Puntos de rotura (I)
 
 - Normalmente:
-    - 320px para el mÃ³vil,
+    - 320px para el móvil,
     - 768px para el tablet,
     - 1024px para el portatil,
     - 1200px para el sobremesa.
 
 ## Puntos de rotura (II)
 
-- Lo mejor serÃ­a que los puntos de rotura que aplicamos en los Media Query, fueran **en funciÃ³n de nuestro contenido**, en vez de en funciÃ³n del tamaÃ±o del dispositivo mÃ¡s vendido.
+- Lo mejor sería que los puntos de rotura que aplicamos en los Media Query, fueran **en función de nuestro contenido**, en vez de en función del tamaÃ±o del dispositivo más vendido.
 
 - La manera de hacerlo: **ir cambiando poco a poco el ancho del navegador y donde la web se rompa**, aplicar un Media Query.
 
@@ -550,10 +545,10 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 
 ## Licencia
 
-- Estas **transparencias** estÃ¡n hechas con:
+- Estas **transparencias** están hechas con:
     - MarkdownSlides: <https://github.com/asanzdiego/markdownslides>
 
-- Estas **transparencias** estÃ¡n bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
+- Estas **transparencias** están bajo una licencia Creative Commons Reconocimiento-CompartirIgual 3.0:
     - <http://creativecommons.org/licenses/by-sa/3.0/es>
 
 ## Fuentes
@@ -564,7 +559,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - Ejercicios:
     - <https://github.com/asanzdiego/curso-interfaces-web-2016/tree/master/03-rwd/src>
 
-## BibliografÃ­a (I)
+## Bibliografía (I)
 
 - Responsive Web Design
     - <http://www.arkaitzgarro.com/responsive-web-design/index.html>
@@ -575,7 +570,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - Tutorial: Responsive Web Design
     - <http://www.mmfilesi.com/blog/tutorial-responsive-web-design-i>
 
-## BibliografÃ­a (II)
+## Bibliografía (II)
 
 - Tutorial: Transforma tu web en Responsive Design
     - <http://blog.ikhuerta.com/transforma-tu-web-en-responsive-design>
@@ -586,7 +581,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - Todo lo que necesita saber sobre Responsive Web Design
     - <http://www.ecbloguer.com/marketingdigital/?p=2635>
 
-## BibliografÃ­a (III)
+## Bibliografí­a (III)
 
 - DiseÃ±o web fluido y plantilla fluida con HTML5 y CSS3
     - <http://www.aloud.es/diseno-web-fluido-y-plantilla-fluida>
@@ -597,7 +592,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - Responsive Web Design Testing Tool
     - <http://mattkersley.com/responsive>
 
-## BibliografÃ­a (IV)
+## Bibliografía (IV)
 
 - Responsive Web Design
     - <http://www.ricardocastillo.com/rwd.pdf>
@@ -608,7 +603,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - DiseÃ±o web adaptativo: mejores prÃ¡cticas
     - <http://www.emenia.es/diseno-web-adaptativo-mejores-practicas>
 
-## BibliografÃ­a (V)
+## Bibliografía (V)
 
 - TraducciÃ³n de "Responsive Web Design" de "A List Apart"
     - <http://diseÃ±owebresponsivo.com.ar>
@@ -616,7 +611,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - Responsive Design Exercise
     - <http://blog.garciaechegaray.com/2013/11/29/responsive-design-exercise.html>
 
-## BibliografÃ­a (VI)
+## Bibliografía (VI)
 
 - EstadÃ­sticas de StatCounter
     - <http://gs.statcounter.com>
@@ -624,7 +619,7 @@ Un Media Query **no sÃ³lo nos permite seleccionar el tipo de medio** (all, bra
 - PÃ¡gina de testeo de Matt Kersley
     - <http://mattkersley.com/responsive>
 
-## BibliografÃ­a (V)
+## Bibliografía (V)
 
 - Los 5 patrones del Responsive Design con FlexBox
     - <https://carlosazaustre.es/blog/los-5-patrones-del-responsive-design/>
