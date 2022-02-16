@@ -266,7 +266,7 @@ img {
 
 - La propiedad **initial-scale** controla el nivel de zoom inicial al cargarse la página.
 
-- Las propiedades **maximum-scale, minimum-scale** controlan el nivel mÃ¡ximo y mÃ­nimo de zoom que se le va a permitir usar al usuario.
+- Las propiedades **maximum-scale, minimum-scale** controlan el nivel máximo y mínimo de zoom que se le va a permitir usar al usuario.
 
 - La propiedad **user-scalable [yes|no]** controlan si el usuario puede o no hacer zoom sobre la página.
 
@@ -341,7 +341,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Operador and
 
-- Es usado para combinar mÃºltiples media features en un solo Media Query, **requiriendo que cada función devuelve true** para que el Query también lo sea.
+- Es usado para combinar múltiples media features en un solo Media Query, **requiriendo que cada función devuelve true** para que el Query también lo sea.
 
 ## Ejemplo and
 
@@ -483,7 +483,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Mobile first (MF)
 
-- Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseÃ±o a pantallas grandes.
+- Consiste en **desarrollar para pantallas pequeñas** y posteriormente adaptar el diseño a pantallas grandes.
 
 ## MF: utiliza min-width
 
@@ -518,7 +518,7 @@ Un Media Query **no sólo nos permite seleccionar el tipo de medio** (all, brail
 
 ## Puntos de rotura (II)
 
-- Lo mejor sería que los puntos de rotura que aplicamos en los Media Query, fueran **en función de nuestro contenido**, en vez de en función del tamaÃ±o del dispositivo más vendido.
+- Lo mejor sería que los puntos de rotura que aplicamos en los Media Query, fueran **en función de nuestro contenido**, en vez de en función del tamaño del dispositivo más vendido.
 
 - La manera de hacerlo: **ir cambiando poco a poco el ancho del navegador y donde la web se rompa**, aplicar un Media Query.
 
