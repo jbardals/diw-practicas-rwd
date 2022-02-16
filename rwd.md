@@ -1,4 +1,4 @@
-% Responsive Web Design
+# RESPONSIVE WEB DESIGN
 
 # Introducción
 
