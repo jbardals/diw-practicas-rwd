@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+nav {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: green;
+}
+
+div {
+    display: inline-block;
+    width: 32%;
+    height: 60px;
+    text-align: center;
+}
+
+aside {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+section {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+
+footer {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
