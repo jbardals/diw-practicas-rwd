@@ -27,15 +27,15 @@ para que el texto se desplace en un tiempo de 3 segundos desde el borde derecho 
 ## Ej2. DESKTOP FIRST (**3 pts**)
 
 Modificar el fichero CSS:
-    • ‘04-desktop-first/ejercicio/04-desktop-first.css’
+   - ‘04-desktop-first/ejercicio/04-desktop-first.css’
 para que la página HTML:
-    • ‘04-desktop-first/ejercicio/04-desktop-first.html’
+   - ‘04-desktop-first/ejercicio/04-desktop-first.html’
 se visione de la siguiente forma:
-    • La imagen de fondo de la capa azul va cambiando dependiendo del tamaño del dispositivo. La primera imagen que se carga es la más grande, para los dispositivos más grandes.
-    • En dispositivos pequeños el ‘sidebar’ se posiciona debajo ocupando el 100% y en dispositivos medianos y grandes se posiciona a la derecha ocupando el 30%.
-    • Breakpoints:
-        ◦ Dispositivos medianos: 880px
-        ◦ Dispositivos pequeños: 580px
+   - La imagen de fondo de la capa azul va cambiando dependiendo del tamaño del dispositivo. La primera imagen que se carga es la más grande, para los dispositivos más grandes.
+   - En dispositivos pequeños el ‘sidebar’ se posiciona debajo ocupando el 100% y en dispositivos medianos y grandes se posiciona a la derecha ocupando el 30%.
+   - Breakpoints:
+		- Dispositivos medianos: 880px
+		- Dispositivos pequeños: 580px
 En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para dispositivos grandes, medianos y pequeños.
 
 
