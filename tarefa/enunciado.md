@@ -1,5 +1,17 @@
 ﻿
-## Ej1. ANIMACIONES (**2 pts**)
+## Ej1. LAYOUT FLUIDO (**2 pts**)
+
+Modificar el fichero CSS:
+    • ‘01-layout-fluido/ejercicio/01-layout-fluido.css’
+para que la página HTML:
+    • ‘01-layout-fluido/ejercicio/01-layout-fluido.html’
+se visione de la siguiente forma:
+    • La capa azul siempre está a la izquierda de la capa roja.
+    • La capa azul tiene que ocupar el 70% mientras que la capa roja el 30%
+    • El texto de la capa azul es el doble de grande que el de la capa roja.
+    • Que la suma de las dos capas (la azul y la roja) no supera nunca los 1024 píxeles.
+	
+En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para 3 resoluciones de pantalla distintas (los valores son meramente orientativos)
 
 1. En el fichero *1. Animation.html* aplicar los estilos necesarios al elemento:
 `<h1>se va a deslizar</h1>`
@@ -12,7 +24,20 @@ para que el texto se desplace en un tiempo de 3 segundos desde el borde derecho 
 4. Modifica el código anterior para que al terminar la animación el texto se visualice a la derecha de la ventana del navegador
 
 
-## Ej2. TRANSICIONES (**3 pts**)
+## Ej2. DESKTOP FIRST (**3 pts**)
+
+Modificar el fichero CSS:
+    • ‘04-desktop-first/ejercicio/04-desktop-first.css’
+para que la página HTML:
+    • ‘04-desktop-first/ejercicio/04-desktop-first.html’
+se visione de la siguiente forma:
+    • La imagen de fondo de la capa azul va cambiando dependiendo del tamaño del dispositivo. La primera imagen que se carga es la más grande, para los dispositivos más grandes.
+    • En dispositivos pequeños el ‘sidebar’ se posiciona debajo ocupando el 100% y en dispositivos medianos y grandes se posiciona a la derecha ocupando el 30%.
+    • Breakpoints:
+        ◦ Dispositivos medianos: 880px
+        ◦ Dispositivos pequeños: 580px
+En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para dispositivos grandes, medianos y pequeños.
+
 
 Dado el  código HTML y CSS del fichero ej02_Transic, crear las transiciones necesarias para pasar del estado inicial al final, aplicando las siguientes transformaciones:
 URL VIDEO
