@@ -2,14 +2,14 @@
 ## Ej1. LAYOUT FLUIDO (**2 pts**)
 
 Modificar el fichero CSS:
-    • ‘01-layout-fluido/ejercicio/01-layout-fluido.css’
+   - ‘01-layout-fluido/ejercicio/01-layout-fluido.css’
 para que la página HTML:
-    • ‘01-layout-fluido/ejercicio/01-layout-fluido.html’
+   - ‘01-layout-fluido/ejercicio/01-layout-fluido.html’
 se visione de la siguiente forma:
-    • La capa azul siempre está a la izquierda de la capa roja.
-    • La capa azul tiene que ocupar el 70% mientras que la capa roja el 30%
-    • El texto de la capa azul es el doble de grande que el de la capa roja.
-    • Que la suma de las dos capas (la azul y la roja) no supera nunca los 1024 píxeles.
+   - La capa azul siempre está a la izquierda de la capa roja.
+   - La capa azul tiene que ocupar el 70% mientras que la capa roja el 30%
+   - El texto de la capa azul es el doble de grande que el de la capa roja.
+   - Que la suma de las dos capas (la azul y la roja) no supera nunca los 1024 píxeles.
 	
 En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para 3 resoluciones de pantalla distintas (los valores son meramente orientativos)
 
