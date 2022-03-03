@@ -1,10 +1,7 @@
 ﻿
 ## Ej1. LAYOUT FLUIDO (**2 pts**)
 
-Modificar el fichero CSS:
-   - ‘01-layout-fluido/ejercicio/01-layout-fluido.css’
-para que la página HTML:
-   - ‘01-layout-fluido/ejercicio/01-layout-fluido.html’
+Modificar el fichero CSS ‘01-layout-fluido/ejercicio/01-layout-fluido.css’ para que la página HTML ‘01-layout-fluido/ejercicio/01-layout-fluido.html’
 se visione de la siguiente forma:
    - La capa azul siempre está a la izquierda de la capa roja.
    - La capa azul tiene que ocupar el 70% mientras que la capa roja el 30%
@@ -26,10 +23,7 @@ para que el texto se desplace en un tiempo de 3 segundos desde el borde derecho 
 
 ## Ej2. DESKTOP FIRST (**3 pts**)
 
-Modificar el fichero CSS:
-   - ‘04-desktop-first/ejercicio/04-desktop-first.css’
-para que la página HTML:
-   - ‘04-desktop-first/ejercicio/04-desktop-first.html’
+Modificar el fichero CSS ‘04-desktop-first/ejercicio/04-desktop-first.css’ para que la página HTML ‘04-desktop-first/ejercicio/04-desktop-first.html’
 se visione de la siguiente forma:
    - La imagen de fondo de la capa azul va cambiando dependiendo del tamaño del dispositivo. La primera imagen que se carga es la más grande, para los dispositivos más grandes.
    - En dispositivos pequeños el ‘sidebar’ se posiciona debajo ocupando el 100% y en dispositivos medianos y grandes se posiciona a la derecha ocupando el 30%.
