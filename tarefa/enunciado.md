@@ -50,9 +50,21 @@ Utilizar en cada caso, una duración y función de tiempo diferentes.
 
 
 
-## Ej3. MEDIA QUERIES (**1 pt**)
+## Ej3. IMAGENES RESPONSIVE (**1 pt**)
 
-Dados el siguiente código HTML y CSS en el directorio *media queries*, aplicar los Media Query necesarios para obtener el comportamiento mostrado en las imágenes. 
+Crea un documento HTML  que cumpla con las siguientes especificaciones:
+   - Usar etiquetas semánticas HTML5 que sean necesarias.
+   - El título de la página debe ser “Praza do Obradoiro”
+   - El cuerpo de la página debe ter una anchura variable hasta un máximo de 1000px.
+   - La cabecera debe ocupar todo el ancho del body con 200px de alto, con una imagen de fondo.
+		- Puedes escoger cualquiera con dimensiones mínimas de 1000px x 200px pero sería recomendable que crees una imagen exactamente de esas dimensiones, para non desperdiciar ancho de banda cargando una image muy grande.
+   - Deberá tener un menú de navegación con tres elementos:
+   - “Inicio”
+		- “Concello de Santiago” con un enlace a un artículo del mismo título dentro de esta misma página.
+		- “Catedral de Santiago” con un enlace a un artículo del mismo título dentro de esta misma página.
+
+		
+		Dados el siguiente código HTML y CSS en el directorio *media queries*, aplicar los Media Query necesarios para obtener el comportamiento mostrado en las imágenes. 
 
 1) Aspecto de la web a pantalla completa:
 
