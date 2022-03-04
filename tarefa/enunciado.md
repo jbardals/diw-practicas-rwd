@@ -11,7 +11,7 @@ se visione de la siguiente forma:
 En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para 3 resoluciones de pantalla distintas (los valores son meramente orientativos)
 
 
-## Ej2. DESKTOP FIRST (**2 pts**)
+## Ej2. "DESKTOP" FIRST (**2 pts**)
 
 Modificar el fichero CSS ‘02-desktop-first/02-desktop-first.css’ para que la página HTML ‘02-desktop-first/02-desktop-first.html’
 se visione de la siguiente forma:
