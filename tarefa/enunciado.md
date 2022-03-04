@@ -64,7 +64,7 @@ Crea un documento HTML  que cumpla con las siguientes especificaciones:
 		- “Catedral de Santiago” con un enlace a un artículo del mismo título dentro de esta misma página.
    - El contenido principal de la página serán los artículos anteriores:
 		- “Concello de Santiago” que tendrá un título con este nombre, un texto, y una imagen con el logotipo del concello de Santiago, con 200px de ancho. Al pulsar sobre el logo nos lleva a la web del concello de Santiago: http://santiagodecompostela.gal/
-		- “Catedral de Santiago” que tendrá un título con este nombre, un texto, y una imagen de la catedral de Santiago que variará según la anchura de la ventana  de navegación empleando la etiqueta <img> y los atributos srcset y sizes. A continuación, más texto, y por último otra imagen de la catedral de Santiago que variará según la anchura de la ventana de navegación empleando la etiqueta <picture>y los elementos <source>.
+		- “Catedral de Santiago” que tendrá un título con este nombre, un texto, y una imagen de la catedral de Santiago que variará según la anchura de la ventana de navegación empleando la etiqueta `<img>` y los atributos srcset y sizes. A continuación, más texto, y por último otra imagen de la catedral de Santiago que variará según la anchura de la ventana de navegación empleando la etiqueta `<picture>`y los elementos `<source>`.
 			- Deberás conseguir una imagen de la catedral y obtener 2 imágenes a partir de ésta: una imagen de 800px de ancho, y otra de 480px de ancho. En este enlace puedes consultar como hacer esto con GIMP.
 			- Cuando la anchura de la ventana de navegación sea >= 800px , el selector escogerá la imagen de 800px de ancho. Cando  sea <800px se mostrará la imagen de 480px de ancho. 
 
