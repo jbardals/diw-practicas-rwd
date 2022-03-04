@@ -3,10 +3,12 @@
 
 ## Alcance de la tarea
 
-*  Conocer cómo podemos seleccionar elementos HTML concretos de páginas web para aplicarles reglas de estilos con css (**selectores, pseudoclases, pseudoelementos**)
-* Aplicar las **reglas de estilo css** correspondientes a elementos **contenedores** y a elementos con **contenidos** tipo texto, enlaces, imágenes, tablas, listas, formularios, etc
-* Aprender a ubicar los elementos HTML de las páginas web teniendo en cuenta el **Modelo de cajas** y los **tipos de posicionamiento** usando correctamente las propiedades correspondientes.
-  
+* Poner en práctica los aspectos que hay que tener en cuenta en Responsive Web Design sin recurrir a frameworks:
+	* Viewport
+	* Diseños fluidos
+	* Media queries
+	* Imágenes, textos "responsive"
+
 
 ## Pasos previos
 
