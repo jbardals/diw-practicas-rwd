@@ -11,7 +11,7 @@ se visione de la siguiente forma:
 En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe visualizar la pagina para 3 resoluciones de pantalla distintas (los valores son meramente orientativos)
 
 
-## Ej2. DESKTOP FIRST (**3 pts**)
+## Ej2. DESKTOP FIRST (**2 pts**)
 
 Modificar el fichero CSS ‘02-desktop-first/02-desktop-first.css’ para que la página HTML ‘02-desktop-first/02-desktop-first.html’
 se visione de la siguiente forma:
@@ -24,7 +24,7 @@ En la carpeta del ejercicio dispones de 3 imágenes de ejemplo de cómo se debe 
 
 
 
-## Ej3. IMAGENES RESPONSIVE (**1 pt**)
+## Ej3. IMAGENES RESPONSIVE (**4 pts**)
 
 Crea un documento HTML  que cumpla con las siguientes especificaciones:
    - Usar etiquetas semánticas HTML5 que sean necesarias.
@@ -50,17 +50,11 @@ Puedes usar las siguientes propiedades de estilos:
    - Para rellenar los textos y que no toquen los bordes:  *padding: 20px;*
    - Para mostrar las imágenes como elemento de bloque:  *display: block;*
 
+Puedes usar como referencia las imágenes de la carpeta *03-imgs responsive*
 
+## Ej4. RESPONSIVE FLEX (**2 pts**)
 
-
-## Ej4. ANIMACIONES Y TRANSICIONES (**3 pts**)
-
-Dados el siguiente código HTML y CSS base, aplicar las animaciones y transformaciones necesarias para conseguir el siguiente efecto:   
-URL VIDEO
-- Al cargarse la página, únicamente se mostrarán los recuadros con las imágenes, ocultando el título, texto, enlace a "Leer más" y el fondo naranja.
-- Al pasar con el ratón sobre la imagen, debe ocurrir lo siguiente:
-  - La imagen de fondo aumentará su tamaño, dando la impresión de que se acerca. 
-  - Se mostrará el fondo naranja, de manera progresiva. 
-  - El título aparecerá por la parte superior de la imagen, hasta colocarse en su lugar. 
-  - El párrafo aparecerá por la parte inferior de la imagen, hasta colocarse en su lugar. 
-  - Se mostrará el enlace "Leer más", de manera progresiva. 
+A partir del código HTML y CSS base, en la carpeta *04-responsive-flex*:
+   - Establecer un diseño Flexbox con display: flex en el elemento contenedor main. Alinea sus items de forma que el primero se alinee al principio y el último al final.
+   - Implementa una estrategia Mobile-First haciendo uso de las propiedades flex-wrap y flex-basis de manera que los elementos hijo del contenedor ocupen un 100% de la anchura del contenedor. Ref: imagen *pantalla_movil*
+   - Para pantallas de tablets y equipos de sobremesa, i.e, de más de 600px, modifica las propiedades anteriores de manera que los elementos hijo no fluyan, i.e, el diseño se mantenga como columnas dentro de una sola fila con 3 columnas. Ref: imagen *pantalla_tablet*
