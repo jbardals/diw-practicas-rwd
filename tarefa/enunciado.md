@@ -59,13 +59,24 @@ Crea un documento HTML  que cumpla con las siguientes especificaciones:
    - La cabecera debe ocupar todo el ancho del body con 200px de alto, con una imagen de fondo.
 		- Puedes escoger cualquiera con dimensiones mínimas de 1000px x 200px pero sería recomendable que crees una imagen exactamente de esas dimensiones, para non desperdiciar ancho de banda cargando una image muy grande.
    - Deberá tener un menú de navegación con tres elementos:
-   - “Inicio”
+		- “Inicio”
 		- “Concello de Santiago” con un enlace a un artículo del mismo título dentro de esta misma página.
 		- “Catedral de Santiago” con un enlace a un artículo del mismo título dentro de esta misma página.
+   - El contenido principal de la página serán los artículos anteriores:
+		- “Concello de Santiago” que tendrá un título con este nombre, un texto, y una imagen con el logotipo del concello de Santiago, con 200px de ancho. Al pulsar sobre el logo nos lleva a la web del concello de Santiago: http://santiagodecompostela.gal/
+		- “Catedral de Santiago” que tendrá un título con este nombre, un texto, y una imagen de la catedral de Santiago que variará según la anchura de la ventana  de navegación empleando la etiqueta <img> y los atributos srcset y sizes. A continuación, más texto, y por último otra imagen de la catedral de Santiago que variará según la anchura de la ventana de navegación empleando la etiqueta <picture>y los elementos <source>.
+			- Deberás conseguir una imagen de la catedral y obtener 2 imágenes a partir de ésta: una imagen de 800px de ancho, y otra de 480px de ancho. En este enlace puedes consultar como hacer esto con GIMP.
+			- Cuando la anchura de la ventana de navegación sea >= 800px , el selector escogerá la imagen de 800px de ancho. Cando  sea <800px se mostrará la imagen de 480px de ancho. 
 
-		
-		Dados el siguiente código HTML y CSS en el directorio *media queries*, aplicar los Media Query necesarios para obtener el comportamiento mostrado en las imágenes. 
+   - Deberá tener un pie de página con la dirección del concello.
+   
+Puedes usar las siguientes propiedades de estilos:
+   - Para centrar el cuerpo de la página y las imágenes:  *margin: 0 auto;*
+   - Para establecer la imagen de fondo de la cabecera centrada y sin repetirse::  *background: url(nomedaimaxe.jpg) no-repeat center;*
+   - Para rellenar los textos y que no toquen los bordes:  *padding: 20px;*
+   - Para mostrar las imágenes como elemento de bloque:  *display: block;*
 
+   
 1) Aspecto de la web a pantalla completa:
 
 ![img_pantalla_completa](../imgs/completa.png)
